@@ -1,0 +1,26 @@
+{
+  "name": "vue-js-11092024",
+  "version": "1.0.0",
+  "description": "vue js session",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "t:u": "vitest"
+  },
+  "keywords": [
+    "vue",
+    "js",
+    "router",
+    "store"
+  ],
+  "author": "Glodie Tshimini",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "cypress": "^13.14.2",
+    "supertest": "^7.0.0",
+    "vitest": "^2.0.5"
+  }
+}
