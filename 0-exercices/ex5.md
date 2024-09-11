@@ -56,8 +56,4 @@ h3 {
 
 ## Illustration non contractuelle d'une présentation de l'application shoplist
 
-![shoplist1](./img/shoplist_1.png)
-
----
-
 ![shoplist2](./img/shoplist_2.png)
