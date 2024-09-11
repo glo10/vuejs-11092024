@@ -39,7 +39,7 @@ const codes = [
 ]
 ```
 
-## Quelques propriétés retournés en français ainsi que les clés associées entre les parenthèses
+## Quelques propriétés retournées en français ainsi que les clés associées entre les parenthèses
 
 Attention les propriétés ci-dessous entre parenthèses sont accessibles depuis l'objet ***product*** de la réponse du serveur après transformation en JSON
 - Code (*code*)
@@ -73,6 +73,6 @@ fetch(`https://fr.openfoodfacts.org/api/v3/produit/${codes[0]}`)
   })
   .catch((error) => console.error('error', error))
 ```
-## Illustration non contractuelle
+## Illustration non-contractuelle
 
 ![off](./img/openfoodfacts-api.png)
