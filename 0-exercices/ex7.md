@@ -75,4 +75,4 @@ fetch(`https://fr.openfoodfacts.org/api/v3/produit/${codes[0]}`)
 ```
 ## Illustration non-contractuelle
 
-![off](./img/openfoodfacts-api.png)
+![off](./img/openfoodfact.PNG)
