@@ -5,5 +5,5 @@
 ## Aide isolation des composants
 
 - Isolez l'ajout d'un article dans un composant dédié
-- Isolez les filtres dans un composant
-- Isolez la liste de courses
+- Isolez les filtres dans un composant dédié
+- Isolez la liste de courses dans un composant dédié

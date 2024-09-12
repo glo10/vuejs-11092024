@@ -1,7 +1,7 @@
 # Exercice 9 : slots
 
 1. Reprenez l'exercice 8.
-2. Utilisez les ***slots*** pour définir un Layout générique pour le composant dédiée à l'affichage de la liste des courses. Par exemple, il est possible de rendre la liste des produits sous forme de liste ou tableau en HTML ou tout autre structure.
+2. Utilisez les ***slots*** pour définir un Layout générique pour le composant dédiée à l'affichage de la liste des courses. Par exemple, il est possible de rendre la liste des produits sous forme de liste *ul/li* ou tableau en HTML ou tout autre structure de votre choix.
 
 ## Aide mise en place layout
 
