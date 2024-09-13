@@ -6,7 +6,10 @@ import TheWelcome from './components/TheWelcome.vue'
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
+    <router-link to="/">Accueil</router-link>
+    <router-link to="/actus">Actus</router-link>
+    <router-link to="/contact">Contact</router-link>
+    <router-view/>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
