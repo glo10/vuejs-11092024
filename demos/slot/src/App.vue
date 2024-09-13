@@ -22,10 +22,20 @@ import BaseLayout from '@/components/BaseLayout.vue'
     <WelcomeItem>
       <template #heading>
         <table>
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Details</th>
+            </tr>
+          </thead>
           <tbody>
           <tr>
             <td>Item 1</td>
+            <td>Details 1</td>
+          </tr>
+          <tr>
             <td>Item 2</td>
+            <td>Details 2</td>
           </tr>
           </tbody>
         </table>
