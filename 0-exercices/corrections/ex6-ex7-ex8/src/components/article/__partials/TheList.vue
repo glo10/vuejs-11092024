@@ -53,10 +53,13 @@ const showCriteria = computed(() => {
       -->
       <h3 v-if="items.length === 0">Aucun article dans le panier</h3>
       <ul v-else-if="itemsFiltered.length">
-        <li v-for="item in itemsFiltered" :key="item.label" :class="{ red: item.isBought }"
-          @click="toggleIsBought(item)">
-          {{ item.label }} - {{ item.section }}
-        </li>
+        <transition-group name="shake">
+          <li v-for="item in itemsFiltered" :key="item.label" :class="{ red: item.isBought }"
+            @click="toggleIsBought(item)">
+            {{ item.label }} - {{ item.section }}
+          </li>
+        </transition-group>
+
       </ul>
       <h3 v-else>Aucun article avec le filtre {{ showCriteria }}</h3>
     </article>

@@ -34,7 +34,9 @@ const changeCriteria = (param) => {
 </script>
 <template>
   <div>
-    <TheProgress v-if="progress.bought > 0" :progress="progress" />
+    <transition name="shake">
+      <TheProgress v-if="progress.bought > 0" :progress="progress" />
+    </transition>
     <h3>Filtres</h3>
     <TheRadio @app:change:filter="changeCriteria" />
     <TheSelect @app:change:filter="changeCriteria" />
@@ -46,3 +48,8 @@ const changeCriteria = (param) => {
     <TheTabOpenFoodFact />
   </div>
 </template>
+<style scoped>
+h3 {
+  color: orange;
+}
+</style>

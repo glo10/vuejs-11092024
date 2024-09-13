@@ -13,6 +13,7 @@
 
 ---
 
-## Lancement de l'application
+# Lancement de l'application
 
+- `npm install`
 - `npm run dev`
