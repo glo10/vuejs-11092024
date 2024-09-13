@@ -29,7 +29,7 @@ const router = createRouter({
             component: HomeView 
         },
         {
-            path: '/actus',
+            path: '/actus/:region/:dep/:id',
             name: 'News',
             component: () => import('@/views/NewsView.vue')
         },
