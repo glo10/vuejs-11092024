@@ -1,5 +1,17 @@
 # Exercice 5
 
+## Concepts abordés
+
+- Composition API
+- Testing avec Vitest
+- v-bind alias :
+- v-on alias @
+- ref
+- computed
+- v-for
+- v-if
+
+
 ## Fichiers modifiés
 
 - [src/components/HelloWorld.vue](src/components/HelloWorld.vue)
