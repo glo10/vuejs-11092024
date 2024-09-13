@@ -17,7 +17,10 @@ export const  useOpenFoodFact = () => {
   onMounted(() => {
     codes.value.forEach((code) => {
       fetch(`https://fr.openfoodfacts.org/api/v1/produit/${code}`)
-      .then(res => res.json())
+      .then(res => {
+        if(res.ok) return res.json()
+        throw new Error('can\'t get data from OpenFoodFact API')
+      })
       .then(res => {
         const { 
           code,

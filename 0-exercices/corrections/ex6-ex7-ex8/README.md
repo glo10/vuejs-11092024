@@ -1,6 +1,4 @@
-# Corrections des exercices 6 et 7
-
-PS : la correction de la 8 prochainement avec la refactorisation de ce dossier
+# Corrections des exercices 6, 7 et 8
 
 ## Concetps abordées
 
